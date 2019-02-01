@@ -37,8 +37,10 @@ Edit this document to include your answers after each question. Make sure to lea
 3. What is an event listener?
    Answer: a event listener is a javascript method set up to wait for a event placed on the DOM.
 4. Why would we convert a NodeList into an Array?
+   Answer: Normaly you would not convert a NodeList to a Array unless you wanted even more array methods on it.
 
 5. What is a component?
+   Answer: a component a class that can be reused over and over again after you initaly set it up.
 
 ### Git Set up
 
