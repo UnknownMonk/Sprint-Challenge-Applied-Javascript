@@ -35,7 +35,7 @@ Edit this document to include your answers after each question. Make sure to lea
 2. What is an event?
    Answer: a event is any action that is performed on the DOM.
 3. What is an event listener?
-
+   Answer: a event listener is a javascript method set up to wait for a event placed on the DOM.
 4. Why would we convert a NodeList into an Array?
 
 5. What is a component?
