@@ -33,7 +33,7 @@ Edit this document to include your answers after each question. Make sure to lea
 1. What is the DOM?
    Answer: Dom is the Document Object Modle
 2. What is an event?
-
+   Answer: a event is any action that is performed on the DOM.
 3. What is an event listener?
 
 4. Why would we convert a NodeList into an Array?
