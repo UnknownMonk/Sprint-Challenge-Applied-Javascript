@@ -1,8 +1,24 @@
 class Carousel {
+  constructor(car) {
+    this.car = car;
+    this.leftButon = this.car.querySelector('.left-button');
+    this.rightButton = this.car.querySelector('.left-button');
+    this.img = this.car.querySelectorAll('img');
 
+    this.index = 0;
+
+    this.leftButon.addEventListener('click', () => this.left());
+    this.rightButon.addEventListener('click', () => this.right());
+    this.img[0].style.display = 'block';
+  }
+  left() {}
+
+  right() {}
 }
 
-let carousel = document.querySelector();
+let carousel = document
+  .querySelectorAll('.carousel')
+  .forEach(car => new Carousel(car));
 
 /* If You've gotten this far, you're on your own! Although we will give you some hints:
     1. You will need to grab a reference to the carousel, and in it grab the laft and right buttons
